@@ -3,3 +3,20 @@
 body {
     background-color: $blue;
 }
+
+#auth .btn {
+    background-color: $blue;
+    border-color: $blue;
+}
+
+.googleButton {
+	background: url(./images/google-sign-in.png);
+	width: 33%;
+	height: 10%;
+	// border: 2.5px solid #4688f1;
+	border-radius: 5px;
+
+	&:hover {
+		box-shadow: $boxShadow;
+	}
+}
