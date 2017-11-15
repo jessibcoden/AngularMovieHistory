@@ -8,3 +8,6 @@ app.contstant("FIREBASE_CONFIG", {
     storageBucket: "",
     messagingSenderId: ""
   });
+
+  app.constant("TMDB_CONFIG", "");
+  
