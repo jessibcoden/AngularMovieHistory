@@ -8,7 +8,7 @@ app.controller("AuthCtrl", function($location, $rootScope, $scope, AuthService){
                 $location.url("/search");
             });         
             }).catch((err) => {
-                console.log("error in authenticatGoogle", err)
+                console.log("error in authenticatGoogle", err);
             });
-    }
+    };
 });

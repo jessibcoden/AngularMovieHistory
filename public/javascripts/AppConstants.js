@@ -1,10 +1,11 @@
 "use strict";
 
 app.constant("FIREBASE_CONFIG", {
-    apiKey: "AIzaSyCXnmdTQZFCIs5pJp1UQfaYFlv9GIJ0iEo",
-    authDomain: "movie-groovy.firebaseapp.com",
-    databaseURL: "https://movie-groovy.firebaseio.com",
-    projectId: "movie-groovy",
+    apiKey: "AIzaSyAv5WSrKe0jN7wWDakPEKoUuG3QqldF7D4",
+    authDomain: "moviestack-7af89.firebaseapp.com",
+    databaseURL: "https://moviestack-7af89.firebaseio.com",
+    projectId: "moviestack-7af89",
     storageBucket: "",
-    messagingSenderId: "887204138860"
+    messagingSenderId: "349185676372"
   });
+
