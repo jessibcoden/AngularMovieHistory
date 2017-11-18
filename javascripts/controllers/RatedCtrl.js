@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("RatedCtrl", function($rootScope, $scope, MovieService){
+app.controller("RatedCtrl", function($location, $rootScope, $scope, MovieService){
     $scope.movies = [];
 
     const getMovies = () => {
@@ -31,8 +31,10 @@ app.controller("RatedCtrl", function($rootScope, $scope, MovieService){
                 console.log("error in updateMovie", err);
             });
         }
-        console.log("event", $event);
-        console.log("movie", movie);
     };
-
+    
+    $scope.movieDetail = (movieId) => {
+        console.log("movieId", movieId);
+        $location.path(`/movie/${movieId}`);
+    };
 });
